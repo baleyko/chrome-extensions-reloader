@@ -1,0 +1,7 @@
+{
+  "name": "Chrome Extensions Reloader",
+  "description": "A livereload client which does reload all your extensions",
+  "manifest_version": 2,
+  "minimum_chrome_version": "50",
+  "version": "0.1.0"
+}
