@@ -10,14 +10,14 @@ It's a Livereload client which listen to the Livereload server and does reload a
 $ git clone https://github.com/baleyko/chrome-extensions-reloader.git
 ```
 
-2. Switch on Chrome/Chromium the Developer mode at the chrome://extensions/ page
+2. Switch on Chrome/Chromium the Developer mode at the <a href="chrome://extensions/" target="_blank">chrome://extensions/</a> page
 
-3. Install this extension at the chrome://extensions/ page with choosing of the cloned repository directory by the 'Load unpacked' button
+3. Install this extension at the [chrome://extensions/](chrome://extensions/) page with choosing of the cloned repository directory by the 'Load unpacked' button
 
 4. Install the Livereload server
 
 ```bash
-$ yarn add global livereload
+$ yarn global add livereload
 ```
 
 -or-
