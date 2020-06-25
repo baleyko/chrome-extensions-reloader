@@ -42,7 +42,7 @@ const onError = () => {
 const realod = () => {
   chrome.management.getAll(extensions =>
     extensions
-      .filter(ext => ext.installType === 'development')
+      .filter(ext => ext.installType === chrome.management.ExtensionInstallType.DEVELOPMENT)
       .filter(ext => ext.enabled === true)
       .filter(ext => ext.id !== chrome.runtime.id)
       .map(ext =>
@@ -51,7 +51,7 @@ const realod = () => {
             ext.id,
             true,
             () =>
-              ext.type === 'packaged_app' && chrome.management.launchApp(ext.id)
+              ext.type === chrome.management.ExtensionType.PACKAGED_APP && chrome.management.launchApp(ext.id)
           )
         )
       )

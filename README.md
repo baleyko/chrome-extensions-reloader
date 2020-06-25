@@ -31,8 +31,7 @@ $ npm i -g livereload
 ```bash
 $ livereload
 ```
-
-## Contribution
+6. Donate me
 
 <a href="https://liberapay.com/baleiko/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
 
